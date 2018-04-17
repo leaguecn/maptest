@@ -18,8 +18,11 @@
 ---------------------------------------
 
 **2. [CV](https://opencv.org)
+* [CS231n: Convolutional Neural Networks for Visual Recognition](http://vision.stanford.edu/teaching/cs231n/index.html)
 * [furukawa](http://www.cs.sfu.ca/~furukawa/)
-* 
+* [Roberto Cipolla](http://mi.eng.cam.ac.uk/~cipolla/publications.htm)
+* [Geoffrey E. Hinton](http://www.cs.toronto.edu/~hinton/)
+* [SceneLib](http://www.doc.ic.ac.uk/~ajd/Scene/index.html)
 
 ---------------------------------------
 
@@ -28,7 +31,9 @@
 * [Online html2pdf](https://www.sodapdf.com/html-to-pdf/)    
 * Rapidleech: 
 [1](http://uschnews.com/up/index.php)-
-[2](http://web.avjie.com)-
-
+[2](http://web.avjie.com)-    
 * [LaTex Online](http://latex.codecogs.com/eqneditor/editor.php)
+
+*-----  
+* [greasyfork](https://greasyfork.org/zh-CN)
 
