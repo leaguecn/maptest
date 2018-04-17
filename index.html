@@ -1,28 +1,104 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-	<style type="text/css">
-	body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}
-	</style>
-	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=LWF4zlldITmbgCUMOs1A39R9w2m7Uoyz"></script>
-	<title>地图展示</title>
+<script type="text/javascript">
+
+var time;
+var YMD;
+function loadXMLDoc()
+{
+	
+	getTime();
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	  {// code for IE7+, Firefox, Chrome, Opera, Safari
+	  xmlhttp=new XMLHttpRequest();
+	  }
+	else
+	  {// code for IE6, IE5
+	  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	  }
+	xmlhttp.open("GET","http://dict.eudic.net/home/dailysentence/",false);
+	//http://news.iciba.com/views/dailysentence/daily.html#!/detail/title/2018-04-12
+	xmlhttp.send();
+	var s=xmlhttp.responseText;
+	//<div class="sentence" id="senten_move">
+	//https://segmentfault.com/a/1190000006672371
+	var reg=/<p class=\"sect[ -_a-z]{1,}\">(.+)<\/p>/g;
+	
+	/*
+	xmlhttp.open("GET","http://news.iciba.com/views/dailysentence/daily.html#!/detail/title/"+YMD,false);
+	//http://news.iciba.com/views/dailysentence/daily.html#!/detail/title/2018-04-12
+	//http://sentence.iciba.com/index.php?callback=jQuery190021458156550064023_1523542551221&c=dailysentence&m=getdetail&title=2018-04-11&_=1523542551228
+	//http://sentence.iciba.com/index.php?callback=jQuery190021458156550064023_1523542551219&c=dailysentence&m=getdetail&title=2018-04-12&_=1523542551231
+	//http://sentence.iciba.com/index.php?callback=jQuery190021458156550064023_1523542551219&c=dailysentence&m=getdetail&title=2018-04-12&_=1523542551237
+	//http://sentence.iciba.com/index.php?callback=jQuery190021458156550064023_1523542551221&c=dailysentence&m=getdetail&title=2018-04-11&_=1523542551240
+	//http://sentence.iciba.com/index.php?callback=jQuery190021458156550064023_1523542551219&c=dailysentence&m=getdetail&title=2018-04-10&_=1523542551243
+	//http://sentence.iciba.com/index.php?callback=jQuery190021458156550064023_1523542551221&c=dailysentence&m=getdetail&title=2018-04-09&_=1523542551246
+	// json	
+	xmlhttp.send();
+	var s1=xmlhttp.responseText;
+	alert(s1);
+	//<div class="sentence" id="senten_move">
+	//https://segmentfault.com/a/1190000006672371
+	var reg1=/<div class=\"[-a-z]{1,}\">(.+)<[ \"\/a-z]{1,}>/g;
+	*/
+	document.getElementById("myDiv").innerHTML=s.match(reg).join("");
+	
+}
+function getTime() {
+
+    var dateObj = new Date();
+    var year = dateObj.getFullYear();//年
+    var month = dateObj.getMonth()+1;//月  (注意：月份+1)
+    var date = dateObj.getDate();//日
+    YMD=year+"-"+month+"-"+date;
+    var day = dateObj.getDay();
+    var weeks = ["Sun.","Mon.","Tus.","Wed.","Thu.","Fri.","Sat."];
+    var week = weeks[day];//根据day值，获取星期数组中的星期数。
+    var hours = dateObj.getHours();//小时
+    var minutes = dateObj.getMinutes();//分钟
+    var seconds = dateObj.getSeconds();//秒
+
+    if(month<10){
+        month = "0"+month;
+    }
+    if(date<10){
+        date = "0"+date;
+    }
+    if(hours<10){
+        hours = "0"+hours;
+    }
+    if(minutes<10){
+        minutes = "0"+minutes;
+    }
+    if(seconds<10){
+        seconds = "0"+seconds;
+    }
+
+    time = year+"-"+month+"-"+date+" "+hours+":"+minutes+":"+seconds+" "+week;
+    document.getElementById("date").innerHTML = "<br>"+time;//在div中写入时间
+    setTimeout('getTime()', 500);//每隔500ms执行一次getTime()
+}
+
+</script>
 </head>
-<body>
-	<div id="allmap"></div>
+<body onload="loadXMLDoc()">
+<!--button type="button" onclick="loadXMLDoc()">Via AJAX reset display</button>-->
+
+<div id="myDiv"><h2>Let AJAX change this text</h2></div>
+
+
+<marquee style="WIDTH: 100%;" onmouseover="this.stop()"  onmouseout="this.start()" scrollamount="8" direction="right" >
+<div align="left" >
+</div >
+<center ><font face="黑体" color="#008000" size="4" ></font ></center >
+<div align="left" >
+</div >
+<center >
+<div id="date" style="font-weight:bold;">00:00:00</div>
+</center >
+</marquee >
+
+
 </body>
 </html>
-<script type="text/javascript">
-	// 百度地图API功能
-	var map = new BMap.Map("allmap");    // 创建Map实例
-	map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
-	//添加地图类型控件
-	map.addControl(new BMap.MapTypeControl({
-		mapTypes:[
-            BMAP_NORMAL_MAP,
-            BMAP_HYBRID_MAP
-        ]}));	  
-	map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
-	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
-</script>
