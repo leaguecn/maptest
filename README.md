@@ -36,4 +36,7 @@
 
 *-----  
 * [greasyfork](https://greasyfork.org/zh-CN)
+* [Encyclopedia of Math](https://www.encyclopediaofmath.org/index.php/Main_Page)
+* [Unofficial PyLib](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
+* [coursera](https://www.coursera.org)
 
