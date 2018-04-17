@@ -14,6 +14,13 @@
 * [img2sdat](https://github.com/xpirt/sdat2img)
 * [sdat2img](https://github.com/xpirt/img2sdat)
 
+
+---------------------------------------
+
+**2. [CV](https://opencv.org)
+* [furukawa](http://www.cs.sfu.ca/~furukawa/)
+* 
+
 ---------------------------------------
 
 ## Instance Tools
@@ -22,4 +29,6 @@
 * Rapidleech: 
 [1](http://uschnews.com/up/index.php)-
 [2](http://web.avjie.com)-
+
+* [LaTex Online](http://latex.codecogs.com/eqneditor/editor.php)
 
