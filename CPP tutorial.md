@@ -14,7 +14,7 @@
 
 \
 
-Pointers {style="margin: 0px; height: 30px; font-size: 21px; border-bottom: 2px solid rgb(32, 64, 128);"}
+###Pointers {style="margin: 0px; height: 30px; font-size: 21px; border-bottom: 2px solid rgb(32, 64, 128);"}
 ========
 
 In earlier chapters, variables have been explained as locations in the
@@ -1210,4 +1210,4 @@ function subtraction:
 
 \
 
- 
+
