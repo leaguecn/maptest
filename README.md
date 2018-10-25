@@ -1,8 +1,6 @@
 
-[TOC]
-
-
 ----------------------------------
+
 # Tools Hub
 
 ## Pro Tools
@@ -19,7 +17,7 @@
 * [img2sdat](https://github.com/xpirt/sdat2img)
 * [sdat2img](https://github.com/xpirt/img2sdat)
 
-/---------------------------------------/
+
 
 **2. [CV](https://opencv.org)
 * [CS231n: Convolutional Neural Networks for Visual Recognition](http://vision.stanford.edu/teaching/cs231n/index.html)
@@ -28,7 +26,7 @@
 * [Geoffrey E. Hinton](http://www.cs.toronto.edu/~hinton/)
 * [SceneLib](http://www.doc.ic.ac.uk/~ajd/Scene/index.html)
 
-/---------------------------------------/
+
 
 **3. Revisit coding problems
 * [Jiuzhang](https://www.jiuzhang.com/)
@@ -48,7 +46,7 @@
 [2](http://web.avjie.com)-    
 * [LaTex Online](http://latex.codecogs.com/eqneditor/editor.php)
 
-/---------/
+
 
 * [greasyfork](https://greasyfork.org/zh-CN)
 * [Encyclopedia of Math](https://www.encyclopediaofmath.org/index.php/Main_Page)
