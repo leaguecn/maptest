@@ -1,5 +1,5 @@
 
-TOC
+[TOC]
 
 
 ----------------------------------
@@ -19,8 +19,8 @@ TOC
 * [img2sdat](https://github.com/xpirt/sdat2img)
 * [sdat2img](https://github.com/xpirt/img2sdat)
 
-
 /---------------------------------------/
+
 **2. [CV](https://opencv.org)
 * [CS231n: Convolutional Neural Networks for Visual Recognition](http://vision.stanford.edu/teaching/cs231n/index.html)
 * [furukawa](http://www.cs.sfu.ca/~furukawa/)
@@ -28,9 +28,8 @@ TOC
 * [Geoffrey E. Hinton](http://www.cs.toronto.edu/~hinton/)
 * [SceneLib](http://www.doc.ic.ac.uk/~ajd/Scene/index.html)
 
-
-
 /---------------------------------------/
+
 **3. Revisit coding problems
 * [Jiuzhang](https://www.jiuzhang.com/)
 * [Nowcoder](http://www.nowcoder.com/)
@@ -39,7 +38,6 @@ TOC
 * [CodeEval](https://www.codeeval.com/)
 
 ---------------------------------------------
-
 
 ## Instance Tools
 
@@ -51,6 +49,7 @@ TOC
 * [LaTex Online](http://latex.codecogs.com/eqneditor/editor.php)
 
 /---------/
+
 * [greasyfork](https://greasyfork.org/zh-CN)
 * [Encyclopedia of Math](https://www.encyclopediaofmath.org/index.php/Main_Page)
 * [Unofficial PyLib](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
