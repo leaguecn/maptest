@@ -17,9 +17,12 @@
 * [img2sdat](https://github.com/xpirt/sdat2img)
 * [sdat2img](https://github.com/xpirt/img2sdat)
 
+**2. Windows Tools
+* [WePE|微PE](http://www.wepe.com.cn/)     
+* [I tell you](https://msdn.itellyou.cn/)
 
 
-**2. [CV](https://opencv.org)
+**3. [CV](https://opencv.org)
 * [CS231n: Convolutional Neural Networks for Visual Recognition](http://vision.stanford.edu/teaching/cs231n/index.html)
 * [furukawa](http://www.cs.sfu.ca/~furukawa/)
 * [Roberto Cipolla](http://mi.eng.cam.ac.uk/~cipolla/publications.htm)
@@ -28,7 +31,7 @@
 
 
 
-**3. Revisit coding problems
+**4. Revisit coding problems
 * [Jiuzhang](https://www.jiuzhang.com/)
 * [Nowcoder](http://www.nowcoder.com/)
 * [LeetCode](https://leetcode.com/)
