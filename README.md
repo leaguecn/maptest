@@ -43,8 +43,11 @@
 ## Instance Tools
 
 * Pro webMaps
-  + [MaxMap](http://leaguecn.coding.me/maxmap/)    
-  + [GeoMap](http://leaguecn.coding.me/GeoMap/)    
+ <!-- + [MaxMap](http://leaguecn.coding.me/maxmap/)  -->
+ <!-- + [GeoMap](http://leaguecn.coding.me/GeoMap/)  -->
+  + [MaxMap](http://lqpd2c.coding-pages.com/)
+  + [GeoMap](http://qda3zt.coding-pages.com/) 
+
 * [Online html2pdf](https://www.sodapdf.com/html-to-pdf/)    
 * [Cloudconvert](https://cloudconvert.com/)
 * Rapidleech: 
